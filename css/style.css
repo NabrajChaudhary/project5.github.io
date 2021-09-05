@@ -1,0 +1,670 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+body {
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif; }
+
+/* This is the css for head part that is in the top with contain navigation in left and social icon in right 
+
+.f_head {
+    background: #71b53d;
+    padding: 5px 0;
+}
+
+.h_con_l {
+    padding: 7px 0;
+    ul {
+        list-style: none;
+        margin: 0;
+        li {
+            color: #fff;
+            padding: 4px 0px;
+            display: inline;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.h_con_r {
+    padding: 7px 0;
+    item-align: center;
+    ul {
+        list-style: none;
+        margin: 0px;
+        li {
+            color: #fff;
+            padding: 4px 10px;
+            display: inline;
+            a {
+                color: #fff;
+                text-decoration: none;
+                padding: 5px;
+                border-radius: 50px;
+                &:hover {
+                    color: tomato;
+                    background-color: teal;
+                }
+            }
+        }
+    }
+}
+
+
+/* This is the css for head part that is in the top with contain navigation in left and social icon in right */
+/* This is the css for navigation bar */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #000; }
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #fff;
+  background: #71b53d; }
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: .25rem; }
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  text-align: center;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0; }
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #71b53d; }
+
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+@media screen and (min-width: 360px) {
+  .navbar-expand-lg .navbar-nav .nav-link:hover,
+  .active {
+    background: #71b53d !important;
+    color: #fff;
+    width: 100%;
+    transition: width 2s; } }
+/* This is the css for navigation bar */
+/* This is the css for landing page */
+/* This is the slider part */
+.item {
+  height: 520px;
+  width: 100%;
+  position: relative;
+  margin: 0px; }
+
+@media screen and (max-width: 500px) {
+  .item {
+    height: 100px;
+    width: 100%;
+    margin: 0px; } }
+/* This is the css for landing page */
+.img-fullwidth {
+  width: 100% !important; }
+
+.about_conth, #c_form h2 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .about_conth span, #c_form h2 span {
+    color: #71b53d; }
+
+.about_conth:after, #c_form h2:after {
+  content: ' ';
+  width: 60px;
+  height: 3px;
+  background: #71b53d;
+  display: block;
+  margin-top: 5px;
+  margin-left: 1px; }
+
+.about_contp {
+  padding: 5px 10px 5px 10px;
+  line-height: 30px;
+  text-align: left;
+  font-size: 17px;
+  color: grey; }
+
+/* This is the section for  news blogs */
+.focus {
+  background: #000; }
+
+.focus_con h2 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #71b53d; }
+  .focus_con h2 span {
+    color: #fff; }
+
+.focus_con h2:after {
+  content: ' ';
+  width: 60px;
+  height: 3px;
+  background: #71b53d;
+  display: block;
+  margin-top: 5px;
+  margin-left: 1px; }
+
+.w_box_focus {
+  background: #fff;
+  padding: 15px 10px; }
+
+.w_box_focus h4 {
+  color: #71b53d;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 5px 7px; }
+
+.w_box_focus p {
+  color: grey;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px 7px; }
+
+.w_box_focus .w_b_btn {
+  margin: 5px 7px;
+  padding: 7px 18px;
+  background: #71b53d;
+  color: #fff;
+  border: none;
+  border-radius: 5px; }
+  .w_box_focus .w_b_btn:hover {
+    background: #71b53d; }
+
+/* This is the section for  news blogs */
+/*This is the section for publising */
+.pub_m_con h2 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .pub_m_con h2 span {
+    color: #71b53d; }
+
+.pub_m_con h2:after {
+  content: ' ';
+  width: 60px;
+  height: 3px;
+  background: #71b53d;
+  display: block;
+  margin-top: 5px;
+  margin-left: 1px; }
+
+.pub_m_box {
+  background: rgba(0, 0, 0, 0.1) !important;
+  padding: 5px; }
+  .pub_m_box h5 {
+    padding: 10px 10px;
+    font-size: 15px; }
+
+/*This is the section for publising */
+/* This is the css for counter */
+/* This is the css for the news and notice section */
+.ne_con {
+  background: #f7f7f7;
+  height: auto; }
+
+.eve_con_l {
+  width: 100%; }
+
+.eve_con_l h3 {
+  font-size: 30px;
+  font-weight: 700; }
+
+.eve_con_l h3::after {
+  content: '';
+  background: #71b53d;
+  display: block;
+  width: 75px;
+  height: 3px;
+  margin-top: 10px; }
+
+.eve_mcon {
+  display: flex;
+  justify-content: space-between; }
+
+.econ_box {
+  background: #71b53d;
+  padding: 10px 7px; }
+  .econ_box h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 15px; }
+    .econ_box h2 span {
+      font-size: 26px;
+      font-weight: 400;
+      text-transform: uppercase; }
+
+.econ_box2 {
+  padding: 0px 10px;
+  margin: 0px 5px; }
+  .econ_box2 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500; }
+  .econ_box2 p {
+    color: grey;
+    padding: 5px 0;
+    margin-bottom: 0; }
+    .econ_box2 p span {
+      color: #71b53d; }
+
+/* This is the ending of event box left */
+.eve_con_r {
+  padding-left: 10px; }
+
+.eve_con_r h3 {
+  font-size: 30px;
+  font-weight: 700; }
+
+.eve_con_r h3::after {
+  content: '';
+  background: #71b53d;
+  display: block;
+  width: 75px;
+  height: 3px;
+  text-align: center;
+  margin-top: 10px; }
+
+.fe_box p {
+  padding: 10px 10px;
+  color: grey; }
+
+/* This is the css for the news and notice section */
+/* This is the css for project section */
+.project_con h2 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .project_con h2 span {
+    color: #71b53d; }
+
+.project_con h2:after {
+  content: ' ';
+  width: 60px;
+  height: 3px;
+  background: #71b53d;
+  display: block;
+  margin-top: 5px;
+  margin-left: 1px; }
+
+/* This is the css for the tab section in project */
+.project_box {
+  border: 1px solid #ada9a9;
+  padding: 15px;
+  border-radius: 10px; }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff !important;
+  background-color: #007bff !important; }
+
+.nav-pills .nav-link {
+  border-radius: .25rem;
+  color: #000 !important; }
+
+.project_box .navbar-expand-lg .navbar-nav .nav-link:hover,
+.active {
+  background: #f5f7f4 !important;
+  width: 100%;
+  transition: width 0.2s;
+  color: #000; }
+
+.proj_sts p {
+  padding-left: 10px;
+  font-size: 17px;
+  color: brown;
+  font-weight: 500; }
+
+/* This is the css for the tab section in project */
+/* This is the css for project section */
+/* This the section for the main footer */
+.m_footer {
+  background: url(../img/footer-bg2.png), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) !important;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* This is the css for col-md-3 f_footer division */
+.f_footer .f_l_c {
+  padding: 0; }
+  .f_footer .f_l_c p {
+    color: #627777;
+    font-size: 17px; }
+  .f_footer .f_l_c a {
+    text-decoration: none;
+    color: #627777; }
+    .f_footer .f_l_c a span {
+      color: #71b53d; }
+
+/* this is the section for social media */
+.f_footer .s_med {
+  padding: 20px 0; }
+  .f_footer .s_med ul {
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px 0px; }
+    .f_footer .s_med ul li {
+      display: inline-block;
+      padding: 7px 15px; }
+      .f_footer .s_med ul li a {
+        text-align: left;
+        color: #fff; }
+        .f_footer .s_med ul li a:hover {
+          color: #71b53d; }
+
+/* this is the section for social media */
+/* This is the css for col-md-3 f_footer division */
+/* This is the css for the col-md-3 f_footer2 division */
+.f_footer2 h5 {
+  color: #fff;
+  font-size: 17px; }
+
+.f_footer2 h5::after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  display: block;
+  background: #71b53d;
+  margin-top: 4px; }
+
+.f2_con {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0; }
+
+.f2_con_box a {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #cccccc; }
+  .f2_con_box a:hover {
+    color: #71b53d; }
+
+.f2_con_box p {
+  color: #cccccc;
+  font-size: 16px;
+  padding: 5px 0; }
+
+/* This is the css for the col-md-3 f_footer2 division */
+/* This is the css for the col-md-3 f_footer3 division */
+.f_footer3 h5 {
+  color: #fff;
+  font-size: 17px; }
+
+.f_footer3 h5::after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  display: block;
+  background: #71b53d;
+  margin-top: 4px; }
+
+.f_footer3 ul {
+  margin-right: 20px;
+  padding: 10px 0px;
+  list-style: none; }
+  .f_footer3 ul li {
+    display: block;
+    padding: 15px 5px; }
+    .f_footer3 ul li a {
+      color: #cccccc;
+      text-decoration: none; }
+      .f_footer3 ul li a:hover {
+        color: #fff; }
+
+/* This is the css for the col-md-3 f_footer3 division */
+/* This is the css for the col-md-3 f_footer4 division */
+.f_footer4 h5 {
+  color: #fff;
+  font-size: 17px; }
+
+.f_footer4 h5::after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  display: block;
+  background: #71b53d;
+  margin-top: 4px; }
+
+.f_footer4 ul {
+  margin-right: 20px;
+  padding: 10px 0px;
+  list-style: none; }
+  .f_footer4 ul li {
+    display: block;
+    padding: 12px 5px; }
+    .f_footer4 ul li a {
+      color: #cccccc;
+      text-decoration: none;
+      font-size: 18px; }
+      .f_footer4 ul li a:hover {
+        color: #fff; }
+
+.f_footer4 p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 18px; }
+
+/*This is the css for subscribe btn in footer*/
+.input-group-append .btn,
+.input-group-prepend .btn {
+  position: relative;
+  z-index: 2;
+  background: #71b53d;
+  color: #fff;
+  padding: 4px 15px;
+  border: none; }
+  .input-group-append .btn:hover,
+  .input-group-prepend .btn:hover {
+    color: #000; }
+
+/* This is the css for the col-md-3 f_footer4 division */
+/* This the section for the main footer */
+/* this is the css section for final footer */
+.final_footer {
+  background: #333333;
+  padding: 15px; }
+
+.f_fcon p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 15px; }
+
+.f_fcon_link ul {
+  list-style: none;
+  margin: 0; }
+  .f_fcon_link ul li {
+    color: #fff;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 17px; }
+    .f_fcon_link ul li a {
+      color: #fff;
+      text-decoration: none; }
+      .f_fcon_link ul li a:hover {
+        color: silver; }
+
+/* this is the css section for final footer */
+.carousel-item {
+  height: 500px !important;
+  width: 100%; }
+
+@media screen and (max-width: 500px) {
+  .carousel-item {
+    height: 300px;
+    width: 100%; }
+
+  .w-100 {
+    width: 200% !important; } }
+.carousel-indicators li {
+  display: none; }
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 40%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #fff;
+  text-align: center; }
+  .carousel-caption h5 {
+    font-size: 59px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .carousel-caption h5 span {
+      color: #71b53d; }
+  .carousel-caption p {
+    font-size: 17px; }
+  .carousel-caption button {
+    border: none;
+    padding: 8px 16px;
+    background: #71b53d;
+    color: #fff; }
+    .carousel-caption button:hover {
+      background: #fff;
+      color: #71b53d; }
+
+/* This is the css for Member board section */
+#team {
+  background: #eee !important; }
+
+.section-title {
+  text-align: center;
+  color: #71b53d;
+  margin-bottom: 50px;
+  text-transform: uppercase; }
+
+.card-text {
+  color: #000; }
+  .card-text span {
+    color: #71b53d;
+    font-size: 19px;
+    font-weight: 500; }
+
+/* This is the css for Member board section */
+/* this is the section for contact from section */
+#c_form {
+  background: rgba(0, 0, 0, 0.1); }
+
+/* this is the section for contact from section */
+#c_form h2 {
+  text-align: left;
+  color: #71b53d;
+  padding-bottom: 30px; }
+
+/* This is the section for contact form css */
+.contactForm {
+  padding: 40px;
+  background: #fff; }
+
+.contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500; }
+
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px; }
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  resize: none;
+  border-bottom: 1px solid #71b53d; }
+
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  text-align: center;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #71b53d; }
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px); }
+
+.contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: #71b53d;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px; }
+  .contactForm .inputBox input[type="submit"]:hover {
+    background: cornflowerblue; }
+
+/* This is the section for contact form css */
+/* This is the css for fade in up button */
+.arr {
+  width: 35px;
+  height: 35px;
+  background: #71b53d !important;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 5px;
+  display: none;
+  padding-left: 8px;
+  padding-top: 3px; }
+
+.arr a {
+  color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

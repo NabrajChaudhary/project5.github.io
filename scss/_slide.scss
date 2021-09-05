@@ -1,0 +1,51 @@
+    .carousel-item {
+        height: 500px !important;
+        width: 100%;
+    }
+    
+    @media screen and (max-width: 500px) {
+        .carousel-item {
+            height: 300px;
+            width: 100%;
+        }
+        .w-100 {
+            width: 200% !important;
+        }
+    }
+    
+    .carousel-indicators li {
+        display: none;
+    }
+    
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        top: 40%;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        color: #fff;
+        text-align: center;
+        h5 {
+            font-size: 59px;
+            font-weight: 700;
+            text-transform: uppercase;
+            span {
+                color: $b-color;
+            }
+        }
+        p {
+            font-size: 17px;
+        }
+        button {
+            border: none;
+            padding: 8px 16px;
+            background: $b-color;
+            color: #fff;
+            &:hover {
+                background: #fff;
+                color: $b-color;
+            }
+        }
+    }

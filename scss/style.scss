@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+$b-color:#71b53d;
+body {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import 'head_part';
+@import 'about_us';
+@import 'mid_con';
+@import 'footer';
+@import 'slide';
+@import 'contact_us_pg';
+
+/* This is the css for fade in up button */
+
+.arr {
+    width: 35px;
+    height: 35px;
+    background: $b-color !important;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    display: none;
+    padding-left: 8px;
+    padding-top: 3px;
+}
+
+.arr a {
+    color: #fff;
+}

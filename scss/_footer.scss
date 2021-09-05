@@ -1,0 +1,205 @@
+            /* This the section for the main footer */
+            
+            .m_footer {
+                background: url(../img/footer-bg2.png), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) !important;
+                height: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            /* This is the css for col-md-3 f_footer division */
+            
+            .f_footer .f_l_c {
+                padding: 0;
+                p {
+                    color: #627777;
+                    font-size: 17px;
+                }
+                a {
+                    text-decoration: none;
+                    color: #627777;
+                    span {
+                        color: $b-color;
+                    }
+                }
+            }
+            /* this is the section for social media */
+            
+            .f_footer .s_med {
+                padding: 20px 0;
+                ul {
+                    list-style: none;
+                    margin-right: 20px;
+                    padding: 10px 0px;
+                    li {
+                        display: inline-block;
+                        padding: 7px 15px;
+                        a {
+                            text-align: left;
+                            color: #fff;
+                            &:hover {
+                                color: $b-color;
+                            }
+                        }
+                    }
+                }
+            }
+            /* this is the section for social media */
+            /* This is the css for col-md-3 f_footer division */
+            /* This is the css for the col-md-3 f_footer2 division */
+            
+            .f_footer2 h5 {
+                color: #fff;
+                font-size: 17px;
+            }
+            
+            .f_footer2 h5::after {
+                content: '';
+                width: 50px;
+                height: 2px;
+                display: block;
+                background: $b-color;
+                margin-top: 4px;
+            }
+            
+            .f2_con {
+                display: flex;
+                justify-content: space-between;
+                padding: 2px 0;
+            }
+            
+            .f2_con_box a {
+                font-size: 15px;
+                text-decoration: none;
+                font-weight: 700;
+                color: #cccccc;
+                &:hover {
+                    color: $b-color;
+                }
+            }
+            
+            .f2_con_box p {
+                color: #cccccc;
+                font-size: 16px;
+                padding: 5px 0;
+            }
+            /* This is the css for the col-md-3 f_footer2 division */
+            /* This is the css for the col-md-3 f_footer3 division */
+            
+            .f_footer3 h5 {
+                color: #fff;
+                font-size: 17px;
+            }
+            
+            .f_footer3 h5::after {
+                content: '';
+                width: 50px;
+                height: 2px;
+                display: block;
+                background: $b-color;
+                margin-top: 4px;
+            }
+            
+            .f_footer3 ul {
+                margin-right: 20px;
+                padding: 10px 0px;
+                list-style: none;
+                li {
+                    display: block;
+                    padding: 15px 5px;
+                    a {
+                        color: #cccccc;
+                        text-decoration: none;
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            /* This is the css for the col-md-3 f_footer3 division */
+            /* This is the css for the col-md-3 f_footer4 division */
+            
+            .f_footer4 h5 {
+                color: #fff;
+                font-size: 17px;
+            }
+            
+            .f_footer4 h5::after {
+                content: '';
+                width: 50px;
+                height: 2px;
+                display: block;
+                background: $b-color;
+                margin-top: 4px;
+            }
+            
+            .f_footer4 ul {
+                margin-right: 20px;
+                padding: 10px 0px;
+                list-style: none;
+                li {
+                    display: block;
+                    padding: 12px 5px;
+                    a {
+                        color: #cccccc;
+                        text-decoration: none;
+                        font-size: 18px;
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            
+            .f_footer4 p {
+                color: #fff;
+                padding-top: 10px;
+                font-size: 18px;
+            }
+            /*This is the css for subscribe btn in footer*/
+            
+            .input-group-append .btn,
+            .input-group-prepend .btn {
+                position: relative;
+                z-index: 2;
+                background: $b-color;
+                color: #fff;
+                padding: 4px 15px;
+                border: none;
+                &:hover {
+                    color: #000;
+                }
+            }
+            /* This is the css for the col-md-3 f_footer4 division */
+            /* This the section for the main footer */
+            /* this is the css section for final footer */
+            
+            .final_footer {
+                background: #333333;
+                padding: 15px;
+            }
+            
+            .f_fcon p {
+                margin: 0;
+                padding: 0;
+                color: #fff;
+                font-size: 15px;
+            }
+            
+            .f_fcon_link ul {
+                list-style: none;
+                margin: 0;
+                li {
+                    color: #fff;
+                    display: inline-block;
+                    padding: 0 5px;
+                    font-size: 17px;
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        &:hover {
+                            color: silver;
+                        }
+                    }
+                }
+            }
+            /* this is the css section for final footer */

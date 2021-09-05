@@ -1,0 +1,111 @@
+/* This is the css for Member board section */
+
+#team {
+    background: #eee !important;
+}
+
+.section-title {
+    text-align: center;
+    color: $b-color;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card-text {
+    color: #000;
+    span {
+        color: $b-color;
+        font-size: 19px;
+        font-weight: 500;
+    }
+}
+
+
+/* This is the css for Member board section */
+
+
+/* this is the section for contact from section */
+
+#c_form {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+/* this is the section for contact from section */
+
+#c_form h2 {
+    text-align: left;
+    color: $b-color;
+    padding-bottom: 30px;
+    @extend .about_conth;
+}
+
+
+/* This is the section for contact form css */
+
+.contactForm {
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    resize: none;
+    border-bottom: 1px solid $b-color;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+    pointer-events: none;
+    transition: 0.5s;
+    color: $b-color;
+}
+
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: $b-color;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    &:hover {
+        background: cornflowerblue;
+    }
+}
+
+
+/* This is the section for contact form css */

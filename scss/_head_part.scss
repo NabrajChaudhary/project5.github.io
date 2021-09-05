@@ -1,0 +1,150 @@
+/* This is the css for head part that is in the top with contain navigation in left and social icon in right 
+
+.f_head {
+    background: #71b53d;
+    padding: 5px 0;
+}
+
+.h_con_l {
+    padding: 7px 0;
+    ul {
+        list-style: none;
+        margin: 0;
+        li {
+            color: #fff;
+            padding: 4px 0px;
+            display: inline;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.h_con_r {
+    padding: 7px 0;
+    item-align: center;
+    ul {
+        list-style: none;
+        margin: 0px;
+        li {
+            color: #fff;
+            padding: 4px 10px;
+            display: inline;
+            a {
+                color: #fff;
+                text-decoration: none;
+                padding: 5px;
+                border-radius: 50px;
+                &:hover {
+                    color: tomato;
+                    background-color: teal;
+                }
+            }
+        }
+    }
+}
+
+
+/* This is the css for head part that is in the top with contain navigation in left and social icon in right */
+
+
+/* This is the css for navigation bar */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #fff;
+    background: $b-color;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: $b-color;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+@media screen and (min-width: 360px) {
+    .navbar-expand-lg .navbar-nav .nav-link:hover,
+    .active {
+        background: $b-color !important;
+        color: #fff;
+        width: 100%;
+        transition: width 2s;
+    }
+}
+
+
+/* This is the css for navigation bar */
+
+
+/* This is the css for landing page */
+
+
+/* This is the slider part */
+
+.item {
+    height: 520px;
+    width: 100%;
+    position: relative;
+    margin: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .item {
+        height: 100px;
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+
+/* This is the css for landing page */
